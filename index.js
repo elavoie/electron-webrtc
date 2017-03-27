@@ -1,5 +1,5 @@
 var EventEmitter = require('events').EventEmitter
-var electron = require('electron-eval')
+var electron = require('@elavoie/electron-eval')
 
 module.exports = function (opts) {
   var daemon = electron(opts)
